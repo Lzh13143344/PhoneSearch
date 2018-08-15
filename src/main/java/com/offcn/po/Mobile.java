@@ -1,7 +1,7 @@
 package com.offcn.po;
 
 import javax.xml.bind.annotation.XmlRootElement;
-//对象可以以XML格式返回
+//对象可以以XML的格式返回
 @XmlRootElement(name="mobile")
 public class Mobile {
 private int id;
