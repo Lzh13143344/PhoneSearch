@@ -25,9 +25,4 @@ public class MobileController {
 		return mobile;
 	}
 	
-	public void add(){
-		
-		System.out.println("haha");
-	}
-	
 }
