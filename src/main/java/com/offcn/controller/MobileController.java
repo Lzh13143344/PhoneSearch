@@ -14,7 +14,6 @@ public class MobileController {
 	
 	@Autowired
 	MobileService ms;
-        //返回json
 	@RequestMapping("getByNum")
 	@ResponseBody
 	public Mobile getByNum(Model model,String mobileNumber){
